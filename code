@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+
+int main() 
+{
+    int n, a, b, c;
+    // enter the nth term and the sequence of series
+    scanf("%d %d %d %d", &n, &a, &b, &c);
+    int ans;
+    int d = c-b ;
+    ans = a + (n-1)*d;
+ 
+    printf("%d", ans); 
+    return 0;
+}
